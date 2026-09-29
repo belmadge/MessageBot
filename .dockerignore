@@ -1,0 +1,47 @@
+# Local secrets and environment files
+.env
+.env.*
+**/.env
+**/.env.*
+
+# Version control
+.git
+**/.git
+.gitignore
+
+# IDE and operating system files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+**/*.tmp
+**/*.temp
+**/*.log
+**/*.bak
+**/*.swp
+**/*.swo
+**/*~
+
+# Local build artifacts
+bin/
+build/
+dist/
+coverage.out
+/api
+*.test
+*.a
+*.o
+*.out
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Frontend local artifacts
+web/node_modules/
+web/dist/
