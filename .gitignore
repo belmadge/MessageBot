@@ -1,0 +1,8 @@
+.env
+.env.*
+!.env.example
+/bin/
+coverage.out
+
+/web/node_modules/
+/web/dist/
